@@ -1,0 +1,44 @@
+<!--pages/content/content.wxml-->
+<view class="detail">
+    <view class="title">
+        <text>您今日摄取食物的总热量为</text>
+    </view>
+    <view class="hotValue">
+        <text>{{hotValue}}焦耳</text>
+        <view class="line"></view>
+    </view>
+    <view class="word">食谱推荐：</view>
+    <view class="content">
+        <view class="breakfast">
+            <view class="title-name">
+                <text>早餐 + 加餐:</text>
+            </view>
+            <view class="tuijian">
+                <text >A. 馒头，牛奶（或豆奶）
+                  B. 煮荷包蛋1个
+                  C. 酱黄瓜</text>
+            </view>
+        </view>
+        <view class="lunch">
+            <view class="title-name">
+                <text>午餐 + 加餐:</text>
+            </view>
+            <view class="tuijian">
+                <text>A. 馒头，牛奶（或豆奶）
+                  B. 煮荷包蛋1个
+                  C. 酱黄瓜</text>
+            </view>
+        </view>
+        <view class="dinner">
+            <view class="title-name">
+                <text>晚餐 + 加餐:</text>
+            </view>
+            <view class="tuijian">
+                <text>A. 馒头，牛奶（或豆奶）
+                  B. 煮荷包蛋1个
+                  C. 酱黄瓜</text>
+            </view>
+        </view>
+    </view>
+</view>
+

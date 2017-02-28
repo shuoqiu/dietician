@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/collection/collection",
+    "pages/content/content",
+    "pages/manuals/manuals",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "饮食专家",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,20 @@
+/* pages/manuals/manuals.wxss */
+page {
+    background-color: #afc8ba;
+    /*filter: alpha(opacity=30);*/
+    /*opacity: 0.3;*/
+}
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    color: #363532;
+    margin-top: 30rpx; 
+}
+
+.content {
+    padding: 38rpx 30rpx 0 30rpx;
+    font-size: 32rpx;
+    color: #363532;
+    font-style: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}

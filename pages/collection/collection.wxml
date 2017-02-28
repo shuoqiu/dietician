@@ -1,0 +1,31 @@
+<!--pages/collection/collection.wxml-->
+<view class="userInfo">
+    <image src="{{userInfo.avatarUrl}}" class="userinfo-avatar" background-size="cover"></image>
+    <!--<text class="userinfo-nickname">{{userInfo.nickName}}</text>-->
+    <!--<text class="userinfo-gender">{{userInfo.gender}}</text>-->
+    <!--<text class="userinfo-province">{{userInfo.province}}</text>-->
+    <!--<text class="userinfo-city">{{userInfo.city}}</text>-->
+    <!--<text class="userinfo-country">{{userInfo.country}}</text>-->
+</view>
+<view class="shengao">
+    <text>身高：</text>
+    <input type="digit" value="{{inputValueShengao}}" maxlength="10" placeholder="请输入您的身高,单位为 厘米。" placeholder-style="color: #ebe8db; font-size: 30rpx;" auto-focus bindinput="inputShengao"></input>
+</view>
+<view class="tizhong">
+    <text>体重：</text>
+    <input type="digit" value="{{inputValueTizhong}}" maxlength="10" placeholder="请输入您的体重,单位为 千克。" placeholder-style="color: #ebe8db; font-size: 30rpx;" bindinput="inputTizhong"></input>
+</view>
+
+<view class="operate">
+    <button class="restart" hover-class="restart-hover" bindtap="restart" type="primary" style="background-color: #e64340;">重置</button>
+    <button class="save" hover-class="save-hover" bindtap="save" type="primary" style="background-color: #09bb07;">保存</button>
+</view>
+
+<view class="search">
+    <button type="primary" plain="true" bindtap="findContent">查询</button>
+</view>
+
+<view class="info">
+    <text class="number0">使用本工具时，请仔细阅读</text>
+    <text class="number1" bindtap="findManuals">使用指南</text>
+</view>

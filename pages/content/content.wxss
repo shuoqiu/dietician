@@ -1,0 +1,65 @@
+/* pages/content/content.wxss */
+.detail .title {
+    margin-top: 45rpx;
+    font-size: 120%;
+    text-align: center;
+}
+
+.title text {
+    color: #303030;
+}
+
+.hotValue {
+    margin: 50rpx;
+    text-align: center;
+}
+
+.hotValue text {
+    color: #dc143c;
+    font-size: 40pt;
+}
+
+.hotValue .line {
+    width: 200rpx;
+    height: 4rpx;
+    color: red;
+}
+
+.word {
+    font-size: 32rpx;
+    margin-bottom: 20rpx;
+    margin-left: 10rpx;
+}
+
+.content {
+    margin: 6rpx 6rpx 0 20rpx;
+}
+
+.title-name {
+    padding: 6rpx;
+    font-size: 40rpx;
+}
+
+.tuijian {
+    margin: 30rpx;
+    font-size: 32rpx;
+}
+
+
+.hotValue {
+    -webkit-animation-name: hotValue;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+}
+@keyframes hotValue {
+    from {
+        opacity:0.1;
+    }
+    50% {
+        opacity:1;
+    }
+    to {
+        opacity:0.1;
+    }
+}

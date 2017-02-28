@@ -1,0 +1,13 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+    <view class="logo-image">
+        <image src="../../images/logo.jpg"></image>
+    </view>
+    <button type="primary" bindtap="startSearch">开始查询</button>
+    <view class="statement">
+        <text>@西安xxx公司出品</text>
+    </view>
+</view>
+
+
+
